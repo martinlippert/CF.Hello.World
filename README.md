@@ -1,17 +1,20 @@
-This README.md file is displayed on your project page. You should edit this 
-file to describe your project, including instructions for building and 
-running the project, pointers to the license under which you are making the 
-project available, and anything else you think would be useful for others to
-know.
+CFHelloWorld
+============
 
-We have created an empty license.txt file for you. Well, actually, it says,
-"<Replace this text with the license you've chosen for your project.>" We 
-recommend you edit this and include text for license terms under which you're
-making your code available. A good resource for open source licenses is the 
-[Open Source Initiative] (http://opensource.org/).
+This is a very simple Hello World CloudFoundry Example.
 
-Be sure to update your project's profile with a short description and 
-eye-catching graphic.
+The manifest is more along the lines of a cf v5.
 
-Finally, consider defining a timeline and work items on the "Current Work" tab 
-to give interested developers a sense of your cadence and upcoming enhancements.
+First setup your [Orion Settings for Cloud Deployment](https://orion.eclipse.org/settings/settings.html#,category=Cloud).
+
+For example you can set the API URL to CloudFoundry if you obtain an account there:
+
+	API URL = https://api.run.pivotal.io
+
+Or get an account at [BlueMix](https://ng.bluemix.net) and set the API URL to:
+
+	API URL = https://api.ng.bluemix.net
+	Manage URL = https://ace.ng.bluemix.net
+
+[Clone this example into OrionHub](https://orionhub.org/git/git-repository.html#,createProject.name=CFHelloWorld,cloneGit=https://github.com/kenwalker/CFHelloWorld.git), then Push the Deploy button
+

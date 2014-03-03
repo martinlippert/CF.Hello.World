@@ -1,0 +1,8 @@
+---
+applications:
+- name: CFHelloWorld
+  mem: 128M
+  instances: 1
+  path: .
+  host: CFHelloWorld-${random-word}
+  command: node app.js
