@@ -5,7 +5,7 @@ This is a very simple Hello World CloudFoundry Example.
 
 The manifest is more along the lines of a cf v5.
 
-First setup your [Orion Settings for Cloud Deployment](https://orion.eclipse.org/settings/settings.html#,category=Cloud).
+First setup your [Orion Settings for Cloud Deployment](https://orionhub.org/settings/settings.html#,category=Cloud).
 
 For example you can set the API URL to CloudFoundry if you obtain an account there:
 
