@@ -16,5 +16,5 @@ Or get an account at [BlueMix](https://ng.bluemix.net) and set the API URL to:
 	API URL = https://api.ng.bluemix.net
 	Manage URL = https://ace.ng.bluemix.net
 
-[Clone this example into OrionHub](https://orionhub.org/git/git-repository.html#,createProject.name=CFHelloWorld,cloneGit=https://github.com/kenwalker/CFHelloWorld.git), then Push the Deploy button
+[Clone this example into OrionHub](https://orionhub.org/git/git-repository.html#,createProject.name=CFHelloWorld,cloneGit=https://hub.jazz.net/git/spirit/CF.Hello.World), then Push the Deploy button
 
