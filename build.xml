@@ -9,7 +9,7 @@
   
   <path id="classpathDir">
     <pathelement location="bin" />
-  </path>
+  </path> 
   
   <target name="init">
     <mkdir dir="bin" />
