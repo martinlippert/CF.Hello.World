@@ -1,4 +1,4 @@
-/*jshint node:true */
+/*eslint-env node */
 
 /* This simple example just returns static content */
 
@@ -8,5 +8,6 @@ var http = require('http');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('WAS Up\n');
+  res.end('Hi Gosia from app.js\n');
+  console.log("here's some logging");
 }).listen(port);
