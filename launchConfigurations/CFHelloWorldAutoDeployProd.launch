@@ -1,0 +1,17 @@
+{
+  "ServiceId": "org.eclipse.orion.client.cf.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.run.pivotal.io",
+      "Org": "FrameworksAndRuntimes",
+      "Space": "development"
+    },
+    "Name": "ml-cf-node-example",
+    "Instrumentation": {
+      "host": "ml-cf-node-example",
+      "domain": "cfapps.io"
+    }
+  },
+  "Path": "",
+  "Type": "Cloud Foundry"
+}
